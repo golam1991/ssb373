@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first css</title>
+    
+    
+
+
+
+
+<link rel="icon" href="./css first home work_files/logo.jpg"><link rel="stylesheet" href="./css first home work_files/style.css"></head>
+<body>
+    <table border="1px" width="100%" cellspacing="0">
+        <tbody><tr class="abc">
+            <th>si</th>
+            <th>tag name</th>
+            <th>description</th>
+            <th>example</th>
+        </tr>
+        <tr class="abc1">
+            <td>01</td>
+            <td>h1</td>
+            <td>this is used for heading</td>
+            <td><h1>this is used for heading</h1>
+            <h2>this is used for heading</h2></td>
+
+        </tr>
+        <tr class="abc2">
+            <td>02</td>
+            <td>i</td>
+            <td>used for italic</td>
+            <td><i>this is italic</i></td>
+        </tr>
+        <tr class="abc3">
+            <td>03</td>
+            <td>img</td>
+            <td>this is used for image</td>
+            <td><img src="./css first home work_files/logo.jpg" width="200px" alt=""></td>
+        </tr>
+        <tr class="abc4">
+            <td>04</td>
+            <td>p</td>
+            <td>used for paragraph</td>
+            <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum blanditiis perferendis repellendus neque voluptatibus magni totam itaque commodi mollitia in!</p></td>
+        </tr>
+        <tr class="abc5">
+            <td>05</td>
+            <td>b</td>
+            <td>used for bold</td>
+            <td><b>this is bold</b></td>
+        </tr>
+        <tr class="abc6">
+            <td>06</td>
+            <td>comment<!-- --></td>
+            <td>used for comment</td>
+            <td><!--hide this--></td>
+        </tr>
+        <tr class="abc7">
+            <td>07</td>
+            <td>button</td>
+            <td>used for button</td>
+            <td><button>submit</button></td>
+        </tr>
+        <tr class="abc8">
+            <td>08</td>
+            <td>a</td>
+            <td>used for link </td>
+            <td><a href="http://127.0.0.1:5500/youtube"></a></td>
+            
+        </tr>
+        <tr class="abc9">
+            <td>09</td>
+            <td>br</td>
+            <td>break the line</td>
+            <td><p>Lorem ipsum dolor sit,<br> amet consectetur adipisicing<br> elit. Iste, commodi.</p></td>
+       
+        </tr>
+        <tr class="abc10">
+            <td>10</td>
+            <td>abbr</td>
+            <td>define</td>
+            <td><abbr title="world health organization">WHO</abbr> found in 1940</td>
+        </tr>
+        <tr class="abc11">
+            <td>11</td>
+            <td>del</td>
+            <td>delete somoething</td>
+            <td>this is <del>impossible</del> possible </td>
+        </tr>
+        <tr class="abc12">
+            <td>12</td>
+            <td>div</td>
+            <td>used for style</td>
+            <td><div><h1>this is div heading</h1>
+                <h2>this is heading two</h2> </div>
+                <p>this is outside</p>
+              </td>
+        </tr>
+        <tr class="abc13">
+            <td>13</td>
+            <td>dl</td>
+            <td>used to create description list</td>
+            <td><dl>
+                <dt>milk</dt>
+                <dd>white cold drink</dd>
+                <dt>coffe</dt>
+                <dd>black hot drink</dd>
+            </dl>
+        </td>
+        </tr>
+        <tr class="abc14">
+            <td>14</td>
+            <td>li</td>
+            <td>used for listing</td>
+            <td>
+            <ul>
+                <li>am</li>
+                <li>jam</li>
+                <li>kola</li>
+            </ul>
+            <ol>
+                <li>am</li>
+                <li>jam</li>
+                <li>kola</li>
+
+            </ol>
+            </td>
+        </tr>
+        <tr class="abc15">
+            <td>15</td>
+            <td>u</td>
+            <td>used for misspelled</td>
+            <td>my salary is <u>$3000</u></td>
+        </tr>
+
+
+
+
+
+
+
+
+    </tbody></table>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
