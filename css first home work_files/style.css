@@ -1,0 +1,93 @@
+.abc
+{color:red;
+background-color: blue;
+font-size: 30px;
+text-transform: uppercase;
+}
+
+.abc1{
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+}
+.abc2{
+    color: white;
+    background-color: red;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.abc3{
+    color: rgb(184, 18, 18);
+    background-color: rgb(240, 232, 232);
+}
+.abc4{
+    color: white;
+    background-color: blue;
+}
+.abc5{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 200%;
+}
+.abc6{
+    color: blue;
+    background-color: white;
+    font-size: 200%;
+}
+.abc7{
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+}
+.abc8{
+    color: white;
+    background-color: blue;
+    text-transform: uppercase;
+    font-size: medium;
+}
+.abc9{
+    color: white;
+    background-color: black;
+
+}
+.abc10{
+    color: white;
+    background-color: blue;
+}
+.abc11{
+    color: white;
+    background-color: blacks;
+}
+.abc11{
+    color:white;
+    background-color: black;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+.abc12{
+    color: white;
+    background-color: red;
+    border:teal;
+
+}
+.abc13{
+    color: saddlebrown;
+    background-color: seashell;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.abc14{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 50;
+}
+.abc15{color: saddlebrown;
+    background-color:pink;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+
+
